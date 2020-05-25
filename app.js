@@ -20,7 +20,7 @@ $(() => {
 
   $('.operator').on('click', event => {
     operator = $(event.currentTarget).text()
-    console.log(`The operatir is ${operator}`);
+    console.log(`The operator is ${operator}`);
   })
   ///we have added the operators which means the else statement on line 14 will now be triggered
   // We now can recognize val1 and val2 only when an operator is clicked.
