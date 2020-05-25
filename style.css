@@ -72,4 +72,9 @@ background-color: teal;
 
 #output {
   text-align: right;
+  min-width: 95%;
+  height: auto;
+  padding: 5% 1%;
+  background-color: blanchedalmond;
+  border-radius: 5px;
 }
