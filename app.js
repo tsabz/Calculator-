@@ -28,6 +28,24 @@ $(() => {
   //equals on click
   $('#equals').on('click', event => {
     //let result = parseInt(val1) + parse(val2)
+    //console.log(`This is the result ${result}`);
+    if (operator === '+') {
+      let result = parseInt(val1) + parseInt(val2)
+      console.log(`This is the result ${result}`)
+      ('#output').text(result)
+    } else if (operator === '-') {
+      let result = parseInt(val1) - parseInt(val2)
+      console.log(`This is the result ${result}`)
+      ('#output').text(result)
+    } else if (operator.toLowerCase() === 'x') {
+      let result = parseInt(val1) * parseInt(val2)
+      console.log(`This is the result ${result}`)
+      ('#output').text(result)
+    } else if (operator === '/') {
+      let result = parseInt(val1) / parseInt(val2)
+      console.log(`this is the result ${result}`)
+      $('#output').text(result)
+    }
   })
 
 
