@@ -48,9 +48,12 @@ $(() => {
     }
   })
 
-
-
-
-
+  //clear on click
+  $('#clear').on('click', () => {
+    val1 = ''
+    val2 = ''
+    operator = ''
+    $('#output').text('0')
+  })
 //closing
 })
